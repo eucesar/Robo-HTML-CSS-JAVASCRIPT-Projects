@@ -7,9 +7,9 @@
 
 > 🌱👨‍💻 - For my project (Sprints) "WEB STANDARDS AND GAME DEVELOPMENT", I developed a website in Sprint with the theme of my final work of the 1st year of Information System (Topic: RoboCup).
 
-Sprint 1 : Figma from the site - RoboCup.
+> Sprint 1 : Figma from the site - RoboCup.
 
-Sprint 2: Assemble website made in html and css according to Figma made in Sprint 1.
+> Sprint 2: Assemble website made in html and css according to Figma made in Sprint 1.
 
 ## Download
 
