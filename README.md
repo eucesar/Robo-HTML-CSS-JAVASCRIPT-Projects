@@ -5,13 +5,16 @@
   <img align="center" alt="Cesar-JavaScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg">
 </p>
 
-> 🌱👨‍💻 - During the "WEB STANDARDS AND GAME DEVELOPING" classes, I developed projects for study, I will share all these projects in this repertoire during the bachelor. I carried out these projects at FIAP.
+> 🌱👨‍💻 - For my project (Sprints) "WEB STANDARDS AND GAME DEVELOPMENT", I developed a website in Sprint with the theme of my final work of the 1st year of Information System (Topic: RoboCup).
 
+Sprint 1 : Figma from the site - RoboCup.
+
+Sprint 2: Assemble website made in html and css according to Figma made in Sprint 1.
 
 ## Download
 
 ```sh
-https://github.com/eucesar/HTML-CSS-JAVASCRIPT-Projects-done-in-class-FIAP.git
+https://github.com/eucesar/Robo-HTML-CSS-JAVASCRIPT-Projects.git
 ```
 
 ## Cesar
