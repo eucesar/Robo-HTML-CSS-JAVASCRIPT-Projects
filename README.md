@@ -14,7 +14,7 @@
 ## Download
 
 ```sh
-https://github.com/eucesar/Robo-HTML-CSS-JAVASCRIPT-Projects.git
+https://github.com/eucesar/Robo-HTML-CSS-JAVASCRIPT-Sprints.git
 ```
 
 ## Cesar
