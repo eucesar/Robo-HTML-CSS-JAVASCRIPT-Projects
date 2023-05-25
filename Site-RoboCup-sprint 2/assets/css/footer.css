@@ -1,0 +1,81 @@
+footer{
+    background-color: var(--rosa);
+}
+
+.rodape1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 50px;
+    text-align: center;
+    border-bottom: solid var(--preto) 1px;
+    margin: 0 30px 0 30px;
+}
+
+.rodape1 img{
+    width: 15%;
+}
+
+.rodape-esquerda{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.8%;
+    
+}
+
+.rodape-esquerda a{
+    padding-right: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--preta);
+}
+
+.rodape-direita{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.8%;
+}
+
+.rodape-direita a{
+    padding-right: 15px;
+    padding-left: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--preta);
+}
+
+.rodape2{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding-left: 85px;
+}
+
+.rodape2 img{
+    margin-top: 80px;
+}
+
+.img1{
+   width: 55%;
+   padding-top: 2px;
+}
+
+.img2{
+    width: 45%;
+    margin: 5px  0px 0px 20px;
+
+}
+
+.img3{
+    width: 55%;
+    padding-top: 3px;
+}
+
+.p-rodape{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 80px;
+ 
+}
