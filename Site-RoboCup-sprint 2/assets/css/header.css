@@ -1,0 +1,88 @@
+header{
+    /*header aparece quando abaixo o scrol para baixo*/
+    z-index: 999;
+    position: sticky;
+    top: 0;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--preto);
+    color: var(--rosa);
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 12px 8px rgba(0, 0, 0, 0.16);
+}
+
+.primeira-parte{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.img-header{
+    width: 30%;
+    padding-right: 10px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.segunda-parte{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.link1{
+    text-decoration: none;
+    color: var(--rosa);
+    padding-left: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.terceira-parte{
+    display: flex;
+    padding-right: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.link-btn1{
+    text-decoration: none;
+    color: var(--rosa);
+    text-align: center;
+    margin: 40px;
+}
+
+.link-btn2{
+    text-decoration: none;
+    color: var(--branco);
+    text-align: center;
+    margin: 40px;
+}
+
+.btn1{
+    background-color: var(--preto);
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    border: solid;
+    margin-right: 20px;
+    color: var(--rosa);
+    font-size: 15px;
+
+}
+
+.btn2{
+    background-color: var(--rosa);
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    border: solid;
+    color: var(--rosa);
+    font-size: 15px;
+}
