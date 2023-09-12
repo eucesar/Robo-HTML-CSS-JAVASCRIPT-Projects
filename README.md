@@ -6,10 +6,11 @@
 </p>
 
 > 🌱👨‍💻 - For my project (Sprints) "WEB STANDARDS AND GAME DEVELOPMENT", I developed a website in Sprint with the theme of my final work of the 1st year of Information System (Topic: RoboCup).
+- Sprints are academic work that I receive from FIAP University, counting on a relevant grade in my final grade for the semester. This work was done in the 1st year of the Information System course.
 
-> Sprint 1 : Figma from the site - RoboCup.
+ Sprint 1 : Figma from the site - RoboCup.
 
-> Sprint 2: Assemble website made in html and css according to Figma made in Sprint 1.
+ Sprint 2: Assemble website made in html and css according to Figma made in Sprint 1.
 
 ## Download
 
