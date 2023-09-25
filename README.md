@@ -11,7 +11,9 @@
 
  Sprint 1 : Figma from the site - RoboCup.
 
- Sprint 2: Assemble website made in html and css according to Figma made in Sprint 1.
+ Sprint 2 : Assemble website made in html and css according to Figma made in Sprint 1.
+
+ Sprint 3 : I developed the continuation of Sprint 3 - making the site 100% responsive in addition to developing more sections.
 
 ## Download
 
