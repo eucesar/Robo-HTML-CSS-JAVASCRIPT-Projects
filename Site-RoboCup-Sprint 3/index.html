@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RoboCup</title>
+
+  <!--Icone do site-->
+  <link rel="shortcut icon" href="./assets/img/rosa-header.png" type="image/x-icon" />
+
+  <!-- link na aba -->
+  <link rel="shortcut icon" href="./images/robot.svg" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!-- BS Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+  <!-- chamada CSS BS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <!-- Minha CSS -->
+  <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+
+<body>
+
+  <header class="container-fluid margin-menu bg-black">
+    <nav class="navbar navbar-expand-lg container">
+      <div class="container-fluid mx-1 mt-2 d-flex align-items-center">
+        <h1 class="navbar-brand logo-menu mt-1 rosa titulo-header " href="#">
+          <img src="./IMGS/rosa-header.png" alt="imagem do logo da robô cup" class="img-header">Garoto(a) de Programa
+        </h1>
+
+        <button class="navbar-toggler fs-6 bg-rosa text-secondary-emphasis bt1" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+
+        <div class="collapse navbar-collapse rosa a" id="navbarNav">
+          <ul class="navbar-nav  d-flex justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link mx-3 rosa a aa1" href="#inicio">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link mx-3 rosa a aa1" href="#projetinho">Projeto</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link mx-3 rosa a aa1" href="#arma">Arma</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3 rosa a aa1" href="#hardware">Hardware</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3 rosa a aa1" href="#videos">Videos</a>
+            </li>
+
+            <li class="nav-item mo">
+              <a class="nav-link mx-3 rosa a aa1" href="#equipe">Equipe</a>
+            </li>
+            <li class="nav-item mo">
+              <a class="nav-link mx-3 rosa a aa1" href="#Robocup">RoboCup</a>
+            </li>
+          </ul>
+          <div class="ms-auto rosa">
+            <a class="btn btn-light  rounded-pill rosa bt-header" href="#form"><i
+                class="bi bi-pencil-square pe-2 text-black bt-header"></i>Formulário</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!--apresentação do robô-->
+    <section class="row align-items-center bg-secondary p-5" id="inicio">
+      <!--row -transformo tds os itens dessa class de linha - border primary, mudar cor da borda-->
+      <div class="col-md-7 container align-items-center col-lg-7 pt-5">
+        <!-- o maximo são 12 colunas, ent quando eu ultrapaço isso ele quebra a linha - rounded, boda redonda-->
+        <h1 class="container fs-auto text-center rosa fw-bold t1">
+          RoboCup FIAP:
+        </h1>
+        <h1 class="container fs-auto text-center text-dark fw-bold t1">
+          E-CHO
+        </h1>
+        <p class="container text-wrap text-center text-white fs-5 pt-1 p1 ppppp2">
+          Neste site, apresentamos <span class="text-dark text-decoration-underline">E-CHO</span>, o robô que construímos como projeto de conclusão do
+          1º ano do Curso de <span class="text-dark text-decoration-underline">Sistemas de Informação</span> na <span class="text-dark text-decoration-underline">FIAP</span>. Explore
+          a jornada de criação deste incrível projeto, mergulhe em seus recursos e descubra como a <span
+            class="text-dark text-decoration-underline">tecnologia e a inovação</span> estão moldando o nosso <span class="text-dark text-decoration-underline">FUTURO</span>.</p>
+      </div>
+      <div class="col-md-5 col-lg-5 align-items-center ">
+        <img src="./IMGS/img-do-robo.png" alt="imagem de do meu robô E-CHO" class="img-fluid rounded-5" />
+      </div>
+    </section>
+
+    <!--Seção para carousel de imagens do robô-->
+    <section class="row bg-black p-4 pb-4 pppp" id="projetinho">
+      <div class="d-flex justify-content-center container text-center row p-5">
+        <div class="col-md-6 col-lg-6 c">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./IMGS/robo-feito.jpg" class="d-block w-100 rounded-pill" alt="foto do robô E-CHO">
+              </div>
+              <div class="carousel-item">
+                <img src="./IMGS/robo-feito2.jpg" class="d-block w-100 rounded-pill" alt="foto do robô E-CHO">
+              </div>
+              <div class="carousel-item">
+                <img src="./IMGS/robo-feito3.jpg" class="d-block w-100 rounded-pill" alt="foto do robô E-CHO">
+              </div>
+              <div class="carousel-item">
+                <img src="./IMGS/robo-feito4.jpg" class="d-block w-100 rounded-pill" alt="foto do robô E-CHO">
+              </div>
+              <div class="carousel-item">
+                <img src="./IMGS/robo-construindo.jpg" class="d-block w-100 rounded-pill" alt="foto do robô E-CHO">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 ">
+          <div>
+            <div class="">
+              <h1 class="rosa fs-1 pt-5">Sobre o E-CHO</h1>
+              <ul class="text-center">
+                <li class="text-white">
+                  <p class="li text-white fs-5 ppp2 ppppp">No começo do ano nós alunos do curso de Sistemas de Informação
+                    (1°Ano), tinhamos que refletir sobre qual o nome do nosso robô e como seria sua montagem com uma
+                    arma, para a competição da RoboCup. Sua função é estourar o balão do robô da equipe adversária.</p>
+                </li>
+                <li class="text-white">
+                  <p class="rosa li fs-5 ppp2 ppppp">Minha equipe pensando nisso, pensamenos em fazer uma caixa com duas
+                    camadas (alta), pois os robôs pequenos não conseguiriam estourar nosso balão, e como arma séria uma
+                    lança que é acionada quando o robô inimigo encostar no sensor.</p>
+                </li>
+                <li class="text-white">
+                  <p class="li text-white fs-5 ppp2 ppppp">Decidimos que o nome dele séria E-CHO, por conta do alienígena do
+                    Ben-10.</p>
+                </li>
+              </ul>
+            </div>
+    </section>
+
+    <!-- sistema de arma -->
+    <section class="bg-secondary" id="arma">
+      <div class="text-center p-1 ">
+        <h1 class="fs-1 rosa text-decoration-underline">Sistema de Arma</h1>
+        <p class="text-white text-wrap fs-4 p-4 m-5 border mt-0 mb-0 pp ppppp">E-CHO é um formidável robô de combate equipado
+          com uma inovadora e ágil arma de lança retrátil. Sua lança elevada confere-lhe uma vantagem estratégica única,
+          proporcionando um alcance impressionante, especialmente eficaz contra os adversários de menor porte. Quando a
+          batalha se desenrola, E-CHO desencadeia sua lança, estendendo-a majestosamente sobre o campo de combate, como
+          um predador preparando seu ataque. Com precisão milimétrica, a lança de E-CHO perfura balões de robôs menores,
+          incapacitando-os com uma eficiência implacável. A combinação de agilidade e alcance torna E-CHO um competidor
+          formidável, capaz de controlar o campo de batalha com destreza e determinação, em busca da vitória.</p>
+      </div>
+
+      <div class="d-flex  justify-content-center">
+        <div class="card cc border-0 bg-secondary c1">
+          <img src="./IMGS/img-do-robo.png" class="card-img-top" alt="foto do E-CHO com a arma acionada">
+        </div>
+        <div class="card cc pt-5 border-0 bg-secondary">
+          <i class="bi bi-arrow-right text-center text-white"></i>
+          <i class="bi bi-arrow-right text-center text-white"></i>
+          <i class="bi bi-arrow-right text-center text-white"></i>
+          <i class="bi bi-arrow-right text-center text-white"></i>
+          <i class="bi bi-arrow-right text-center text-white ii"></i>
+          <i class="bi bi-arrow-right text-center text-white ii"></i>
+          <i class="bi bi-arrow-right text-center text-white ii"></i>
+          <i class="bi bi-arrow-right text-center text-white ii"></i>
+          <i class="bi bi-arrow-right text-center text-white ii"></i>
+          <i class="bi bi-arrow-right text-center text-white ii"></i>
+        </div>
+        <div class="card cc pt-5 border-0 bg-secondary">
+          <img src="./IMGS/robo-trasnaparente2.png" class="card-img-top c2" alt="foto do E-CHO com a arma recolhida">
+        </div>
+      </div>
+    </section>
+
+    <!-- hardware -->
+    <section class="bg-rosa p-5" id="hardware">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-6 col-lg-6">
+
+            <div class="rounded-pill mx-5 mb-4 text-center">
+              <img src="./IMGS/hardware2.jpg" class="d-block w-100 rounded-pill img3"
+                alt="imagem em baixo da tampa do robô - hardware do robô">
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <h1 class="">Sobre o Hardware</h1>
+            <p class="fs-4">Venha conhecer debaixo do capô do <span class="text-white">E-CHO </span></p>
+            <!-- accordion -->
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item m-4">
+                <h2 class="accordion-header">
+                  <button class="accordion-button rosa pp" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Hardware que usamos para a montagem do E-CHO
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body ppp">
+                    <strong>
+                      <ul>
+                        <li>Arduino MEGA 2560</li>
+                        <li>Jumper MF e FF</li>
+                        <li>Soquete de 6 pilhas AA</li>
+                        <li>LED de 3MM</li>
+                        <li>Resistor de filme de carbono
+                          de 390 Ohms</li>
+                        <li>Barra de pinos
+                          machoF</li>
+                        <li> 1 - Motor de 5V / 330RPM
+                          Para a arma</li>
+                        <li>3 - Motor DC 3V - 6V Eixo Duplo - Com
+                          caixa de Redução (com roda), 1 para a arma e 2 para a movimentação do robô
+                        </li>
+                        <li>2 - Chave de fim de curso - sensores</li>
+                        <li>Chave alavanca pequena</li>
+                        <li>Shield de Motor</li>
+                        <li>Shield de Bluetooth HC-06</li>
+                        <li>Protoboard de 400 pontos (para o led)</li>
+                        <li>Transistor BD 135 (para o led)</li>
+                        <li>Resistor de Filme de
+                          Carbono 1/4 de Watt
+                          CR25 5% de tolerância
+                          4k7 (4700 Ohms - para o led)</li>
+                        <li>FITA LED RGB 5050 12V - ROLO 5M - SÓ
+                          A FITA</li>
+                        <li>Correia dentada (para a arma)</li>
+                        <li>Eixo para Motor (para a arma)</li>
+                        <li>Cabo de Rede (para a arma)</li>
+                        <li>Guarda Chuva (para a arma)</li>
+                        <li>Madeira MDF</li>
+                        <li>Tinta spray preta e vermelha</li>
+                      </ul>
+                    </strong>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item m-4">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed rosa pp" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Como pensamos na montagemos
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body ppp">
+                    <strong>Colocamos dois moteroes na vertical sobre um correira, que ao encostar em um dos dois
+                      sensores que ficam na frente do robô, os dois motores vão girar para a mesma direção e depois de
+                      alguns segundos vão voltar (acionamento e recolhimento da arma). Então colocamos as lanças do
+                      guarda chuva como arma, e colamos um cabo de rede entre a correia e guarda chuva, fazendo assim,
+                      uma lança com agulha na ponta. De resto, seguimos com a montagem comum, colocando o bluetooth, as
+                      rodas, a base do robô em madeira MDF fornecida pela FIAP (pintamos) e um LED em baixo do robô que
+                      ao andar ou ativar a arma ele muda de cor.</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item m-4">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed rosa pp" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Preciso saber algum conteúdo prévio para montar o robô ?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body ppp">
+                    <strong>Não, você não precisa saber nenhum conteudo previo, se você já tenha visto algo antes em
+                      curso técnico ou algo do tipo, vai te ajudar na contrução do robô, mas tivemos total ajuda dos
+                      makers e professores na conclusão desse projeto.</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- video 1 -->
+    <section class="bg-secondary" id="videos">
+      <div class="container text-center p-5">
+        <div class="row align-items-center">
+
+          <div class="col-md-6 col-lg-6  text-center div-p align-items-center">
+            <h1 class="text-dark text-decoration-underline text-center hh2">Construindo o E-CHO</h1>
+            <p class="text-white fs-2 text-decoration-underline pp2">Clique no <span class="text-dark">PLAY</span> para ser
+              redirecionado a um vídeo no YouTube apresentando a contrução no E-CHO</p>
+          </div>
+
+          <div class="col-md-6 col-lg-6 div-radios align-items-center">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/0H-qnPB7E98" title="YouTube video" allowfullscreen
+                alt="video construindo o E-CHO"></iframe>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- video 2 -->
+    <section class="bg-black">
+      <div class="container text-center p-5">
+        <div class="row align-items-center">
+
+          <div class="col-md-6 col-lg-6 div-radios align-items-center">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/j_XVk2RezFE" title="YouTube video" allowfullscreen
+                alt="video do E-CHO em movimento"></iframe>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6  text-center div-p align-items-center">
+            <h1 class="rosa text-decoration-underline text-center hh2">E-CHO em Ação</h1>
+            <p class="text-white fs-2 text-decoration-underline pp2">Clique no <span class="rosa">PLAY</span> para ser
+              redirecionado a um vídeo no YouTube apresentando o E-CHO sendo controlado pelo celular e ativando a arma
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--cards do pessoal do grupo-->
+    <section class="bg-rosa" id="equipe">
+      <h1 class="text-light px-4 pt-4">Equipe :</h1>
+      <div class="container text-center">
+        <div class="row row-cols-2 align-items-center">
+
+          <div class="col-md-3 col-lg-3 mb-3">
+            <div class=" bg-secondary border border-black rounded">
+              <img src="./IMGS/lucas.jpg" class="card-img-top img-card img-fluid lucas"
+                alt="imagem de um partricipante do grupo">
+              <div class="card-body d-flex justify-content-center text-center">
+                <i class="bi bi-cup-hot-fill px-1 text-light"></i>
+                <h5 class="card-title text-light l">Lucas Thomazette</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-lg-3 mb-3 ">
+            <div class=" bg-secondary border border-black rounded">
+              <img src="./IMGS/cesar.jpg" class="card-img-top img-card img-fluid cesar "
+                alt="imagem de um partricipante do grupo">
+              <div class="card-body d-flex justify-content-center text-center">
+                <i class="bi bi-cup-hot-fill px-2 text-light"></i>
+                <h5 class="card-title text-light">Cesar Iglesias</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-lg-3 mb-3">
+            <div class=" bg-secondary border border-black rounded">
+              <img src="./IMGS/henzo.jpg" class="card-img-top img-card img-fluid henzo"
+                alt="imagem de um partricipante do grupo">
+              <div class="card-body d-flex justify-content-center text-center">
+                <i class="bi bi-cup-hot-fill px-2 text-light"></i>
+                <h5 class="card-title text-light">Henzo Martins</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-lg-3 mb-3">
+            <div class=" bg-secondary border border-black rounded">
+              <img src="./IMGS/ana.jpg" class="card-img-top img-card img-fluid ana"
+                alt="imagem de um partricipante do grupo">
+              <div class="card-body d-flex justify-content-center text-center ">
+                <i class="bi bi-cup-hot-fill px-2 text-light"></i>
+                <h5 class="card-title text-light">Ana Júlia</h5>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--fazer evento-->
+    <section class="row bg-black p-4" id="Robocup">
+      <div class="d-flex justify-content-center container text-center row p-5">
+        <div class="col-md-6 col-lg-6 ">
+          <div class="e">
+            <img src="./IMGS/ganhadores.jpg" class="d-block w-100 rounded-pill"
+              alt="foto dos ganhadores da RoboCup no next">
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-6">
+          <div>
+            <div class="ee">
+              <h1 class="rosa fs-3">RoboCup FIAP: Categorias para Todos os Públicos</h1>
+            </div>
+
+            <!-- accordion -->
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item m-4">
+                <h2 class="accordion-header">
+                  <button class="accordion-button rosa pp" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    NEXT
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body ppp">
+                    <strong>A Next é um evento anual da FIAP, uma instituição de ensino superior em Tecnologia da
+                      Informação. Seu objetivo é proporcionar palestras, workshops e experiências para alunos e o
+                      público em geral. Realizada em São Paulo, a FIAP Next é um dos principais eventos de tecnologia do
+                      Brasil.</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item m-4">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed rosa pp" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    RoboCup
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body ppp">
+                    <strong>A competição RoboCup na Universidade FIAP é uma competição interna entre alunos do curso de
+                      Sistemas de Informação que ocorre somente no 1° Ano do Curso. Os alunos trabalham na montagem de
+                      um robô dois semestres inteiros, aonde ocorre uma competição interna em Setembro para decidir
+                      quais robôs vão competir no NEXT, nesta competição ganha quem estourar o balão do adversário
+                      primeiro, um mata-mata antes da competição final que ocorre somente no NEXT.</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item m-4">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed rosa pp" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Um pouco sobre a FIAP
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body ppp">
+                    <strong>A FIAP, em São Paulo, destaca-se por excelência acadêmica, cursos em TI, administração e
+                      engenharia, com foco em inovação, parcerias empresariais e atividades extracurriculares. Prepara
+                      profissionais para liderar no mercado tecnológico brasileiro.</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <a class="btn btn-outline-danger btnn fs-5" href="https://www.fiap.com.br" target="_blank">Estude
+              Conosco</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--form-->
+    <section class="py-4 px-4 bg-secondary" id="form">
+      <h2 class="rosa my-4">Contato</h2>
+      <form id="contato" name="contato" method="get" action="" class="container bg-secondary">
+        <div class="row">
+
+          <div class="col-md-4 my-2">
+            <label for="nome" class="form-label text-dark fs-4">Nome</label>
+            <input type="text" id="nome" name="nome" class="form-control" placeholder="Ex: Fulano de Tal" minlength="10"
+              maxlength="50" required>
+          </div>
+
+          <div class="col-md-4 my-2">
+            <label for="email" class="form-label text-dark fs-4">Email</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="Ex: seuemail@email.com"
+              maxlength="50" required>
+          </div>
+
+          <div class="col-md-4 my-2">
+            <label for="assunto" class="form-label text-dark fs-4">Assunto</label>
+            <select name="assunto" id="assunto" class="form-select">
+              <option value="0" disabled selected>Selecione o assunto</option>
+              <option value="1">Fazer um elogio</option>
+              <option value="2">Dar uma sugestão</option>
+              <option value="3">Tirar uma dúvida</option>
+              <option value="4">Fazer uma reclamação</option>
+              <option value="4">Como faço para participar</option>
+              <option value="5">Outros assuntos</option>
+            </select>
+          </div>
+
+          <div class="col my-2">
+            <label for="mensagem" class="form-label text-dark fs-4">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" class="form-control" required
+              placeholder="Ex: Sua mensagem aqui..."></textarea>
+          </div>
+
+
+          <div class="my-3 d-flex justify-content-center">
+            <!-- <button type="reset" class="btn btn-outline-primary me-2">Limpar Mensagem</button> -->
+            <button type="submit" class="btn btn-success fs-4">Enviar Mensagem</button>
+
+          </div>
+
+
+        </div>
+
+      </form>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <div class="navbar navbar-expand-lg bg-body-tertiary bg-rosa text-center">
+      <div class="container d-flex  justify-content-around border-bottom border-black p-4">
+        <a href="https://www.fiap.com.br" class="link-body-emphasis link-offset-2 a1" target="_blank">Site Oficial</a>
+        <a href="https://www.fiap.com.br/graduacao/?gad=1&gclid=CjwKCAjw67ajBhAVEiwA2g_jENIqja0Pu52R4x0KPpQ2ZZgA6KUmB8D24I9BliP7XRkIXnQxyY95exoC1GsQAvD_BwE"
+          class="link-body-emphasis link-offset-2 a1 a2" target="_blank">Cursos</a>
+        <div>
+          <img src="./IMGS/branco-footer.png" alt="imagem da robocup - logo" class="logo2">
+        </div>
+        <a href="https://www.fiap.com.br/imprensa/?" class="link-body-emphasis link-offset-2 a1" target="_blank">Blog
+          Fiap</a>
+        <a href="https://www2.fiap.com.br" class="link-body-emphasis link-offset-2 a1" target="_blank">Portal</a>
+      </div>
+    </div>
+
+    <div class="bg-rosa">
+      <div class="container p-4 d-flex justify-content-center">
+        <a href="https://www.facebook.com/fiap/?locale=pt_BR" target="_blank"> <img src="./IMGS/fece.png"
+            alt="facebook da fiap" class="icones-footer f"></a>
+        <a href="https://www.instagram.com/fiapoficial/" target="_blank"><img src="./IMGS/inta.png"
+            alt="instagram da fiap" class="icones-footer2 pt-2 i"></a>
+        <a href="https://twitter.com/FIAP" target="_blank"><img src="./IMGS/tt.png" alt="Twitter da fiap(X)"
+            class="icones-footer3 mx-1 pt-2 t"></a>
+      </div>
+      <div class="d-flex justify-content-center">
+        <p>© Robo cup, FIAP</p>
+      </div>
+    </div>
+  </footer>
+  <!-- Chamada JS CSS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
