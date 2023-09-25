@@ -9,12 +9,12 @@
 > 🌱👨‍💻 - For my project (Sprints) "WEB STANDARDS AND GAME DEVELOPMENT", I developed a website in Sprint with the theme of my final work of the 1st year of Information System (Topic: RoboCup).
 - Sprints are academic work that I receive from FIAP University, counting on a relevant grade in my final grade for the semester. This work was done in the 1st year of the Information System course.
 
- Sprint 1 : Figma from the site - RoboCup.
+ - Sprint 1 : Figma from the site - RoboCup.
 
- Sprint 2 : Assemble website made in html and css according to Figma made in Sprint 1.
+ - Sprint 2 : Assemble website made in html and css according to Figma made in Sprint 1.
  > link : https://robo-html-css-javascript-sprints.vercel.app
 
- Sprint 3 : I developed the continuation of Sprint 3 - making the site 100% responsive in addition to developing more sections.
+ - Sprint 3 : I developed the continuation of Sprint 2 - making the site 100% responsive in addition to developing more sections.
  > link : https://robo-html-css-javascript-sprints-w6i1.vercel.app
 
 ## Download
