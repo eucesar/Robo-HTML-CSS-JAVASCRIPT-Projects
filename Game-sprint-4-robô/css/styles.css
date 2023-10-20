@@ -1,0 +1,13 @@
+       #canvas {
+        border: 1px solid #000;
+        background-image: url('../imgs/arena.jpg');
+        background-size: cover;
+      }
+
+      .d{
+        display: flex;
+      }
+
+      .p{
+        padding: 17px;
+      }
